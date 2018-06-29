@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13251DE920BD932D00F20E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13251DE820BD932D00F20E13 /* AppDelegate.swift */; };
+		13251DEB20BD932D00F20E13 /* NewBeaconController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13251DEA20BD932D00F20E13 /* NewBeaconController.swift */; };
+		13251DEE20BD932D00F20E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13251DEC20BD932D00F20E13 /* Main.storyboard */; };
+		13251DF020BD932F00F20E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13251DEF20BD932F00F20E13 /* Assets.xcassets */; };
+		13251DF320BD932F00F20E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13251DF120BD932F00F20E13 /* LaunchScreen.storyboard */; };
+		13251DFE20BD932F00F20E13 /* Teasure_HunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13251DFD20BD932F00F20E13 /* Teasure_HunterTests.swift */; };
+		13251E0920BD932F00F20E13 /* Teasure_HunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13251E0820BD932F00F20E13 /* Teasure_HunterUITests.swift */; };
+		1352C36920C9B60600C09FF1 /* OnboardingPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352C36820C9B60600C09FF1 /* OnboardingPager.swift */; };
+		1352C36B20C9C69400C09FF1 /* FirstPageTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352C36A20C9C69400C09FF1 /* FirstPageTutorial.swift */; };
+		1386231E20BEC2FB00C6CBC7 /* BeaconController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1386231D20BEC2FB00C6CBC7 /* BeaconController.swift */; };
+		1386232220BECA3000C6CBC7 /* BeaconListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1386232120BECA3000C6CBC7 /* BeaconListController.swift */; };
+		1386232420BEDD3F00C6CBC7 /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1386232320BEDD3F00C6CBC7 /* BeaconManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13251DFA20BD932F00F20E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13251DDD20BD932D00F20E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13251DE420BD932D00F20E13;
+			remoteInfo = "Teasure Hunter";
+		};
+		13251E0520BD932F00F20E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13251DDD20BD932D00F20E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13251DE420BD932D00F20E13;
+			remoteInfo = "Teasure Hunter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13251DE520BD932D00F20E13 /* Treasure Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Treasure Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13251DE820BD932D00F20E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13251DEA20BD932D00F20E13 /* NewBeaconController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBeaconController.swift; sourceTree = "<group>"; };
+		13251DED20BD932D00F20E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13251DEF20BD932F00F20E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13251DF220BD932F00F20E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13251DF420BD932F00F20E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13251DF920BD932F00F20E13 /* Treasure HunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Treasure HunterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13251DFD20BD932F00F20E13 /* Teasure_HunterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teasure_HunterTests.swift; sourceTree = "<group>"; };
+		13251DFF20BD932F00F20E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13251E0420BD932F00F20E13 /* Treasure HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Treasure HunterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13251E0820BD932F00F20E13 /* Teasure_HunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teasure_HunterUITests.swift; sourceTree = "<group>"; };
+		13251E0A20BD932F00F20E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1352C36820C9B60600C09FF1 /* OnboardingPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPager.swift; sourceTree = "<group>"; };
+		1352C36A20C9C69400C09FF1 /* FirstPageTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageTutorial.swift; sourceTree = "<group>"; };
+		1386231D20BEC2FB00C6CBC7 /* BeaconController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconController.swift; sourceTree = "<group>"; };
+		1386232120BECA3000C6CBC7 /* BeaconListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconListController.swift; sourceTree = "<group>"; };
+		1386232320BEDD3F00C6CBC7 /* BeaconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13251DE220BD932D00F20E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13251DF620BD932F00F20E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13251E0120BD932F00F20E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13251DDC20BD932D00F20E13 = {
+			isa = PBXGroup;
+			children = (
+				13251DE720BD932D00F20E13 /* Teasure Hunter */,
+				13251DFC20BD932F00F20E13 /* Teasure HunterTests */,
+				13251E0720BD932F00F20E13 /* Teasure HunterUITests */,
+				13251DE620BD932D00F20E13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13251DE620BD932D00F20E13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13251DE520BD932D00F20E13 /* Treasure Hunter.app */,
+				13251DF920BD932F00F20E13 /* Treasure HunterTests.xctest */,
+				13251E0420BD932F00F20E13 /* Treasure HunterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13251DE720BD932D00F20E13 /* Teasure Hunter */ = {
+			isa = PBXGroup;
+			children = (
+				13251DF420BD932F00F20E13 /* Info.plist */,
+				13251DE820BD932D00F20E13 /* AppDelegate.swift */,
+				1386232320BEDD3F00C6CBC7 /* BeaconManager.swift */,
+				13251DEA20BD932D00F20E13 /* NewBeaconController.swift */,
+				13251DEC20BD932D00F20E13 /* Main.storyboard */,
+				1352C36A20C9C69400C09FF1 /* FirstPageTutorial.swift */,
+				1352C36820C9B60600C09FF1 /* OnboardingPager.swift */,
+				1386232120BECA3000C6CBC7 /* BeaconListController.swift */,
+				1386231D20BEC2FB00C6CBC7 /* BeaconController.swift */,
+				13251DEF20BD932F00F20E13 /* Assets.xcassets */,
+				13251DF120BD932F00F20E13 /* LaunchScreen.storyboard */,
+			);
+			path = "Teasure Hunter";
+			sourceTree = "<group>";
+		};
+		13251DFC20BD932F00F20E13 /* Teasure HunterTests */ = {
+			isa = PBXGroup;
+			children = (
+				13251DFD20BD932F00F20E13 /* Teasure_HunterTests.swift */,
+				13251DFF20BD932F00F20E13 /* Info.plist */,
+			);
+			path = "Teasure HunterTests";
+			sourceTree = "<group>";
+		};
+		13251E0720BD932F00F20E13 /* Teasure HunterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13251E0820BD932F00F20E13 /* Teasure_HunterUITests.swift */,
+				13251E0A20BD932F00F20E13 /* Info.plist */,
+			);
+			path = "Teasure HunterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13251DE420BD932D00F20E13 /* Treasure Hunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13251E0D20BD932F00F20E13 /* Build configuration list for PBXNativeTarget "Treasure Hunter" */;
+			buildPhases = (
+				13251DE120BD932D00F20E13 /* Sources */,
+				13251DE220BD932D00F20E13 /* Frameworks */,
+				13251DE320BD932D00F20E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Treasure Hunter";
+			productName = "Teasure Hunter";
+			productReference = 13251DE520BD932D00F20E13 /* Treasure Hunter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13251DF820BD932F00F20E13 /* Treasure HunterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13251E1020BD932F00F20E13 /* Build configuration list for PBXNativeTarget "Treasure HunterTests" */;
+			buildPhases = (
+				13251DF520BD932F00F20E13 /* Sources */,
+				13251DF620BD932F00F20E13 /* Frameworks */,
+				13251DF720BD932F00F20E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13251DFB20BD932F00F20E13 /* PBXTargetDependency */,
+			);
+			name = "Treasure HunterTests";
+			productName = "Teasure HunterTests";
+			productReference = 13251DF920BD932F00F20E13 /* Treasure HunterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13251E0320BD932F00F20E13 /* Treasure HunterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13251E1320BD932F00F20E13 /* Build configuration list for PBXNativeTarget "Treasure HunterUITests" */;
+			buildPhases = (
+				13251E0020BD932F00F20E13 /* Sources */,
+				13251E0120BD932F00F20E13 /* Frameworks */,
+				13251E0220BD932F00F20E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13251E0620BD932F00F20E13 /* PBXTargetDependency */,
+			);
+			name = "Treasure HunterUITests";
+			productName = "Teasure HunterUITests";
+			productReference = 13251E0420BD932F00F20E13 /* Treasure HunterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13251DDD20BD932D00F20E13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Francesco Picazio";
+				TargetAttributes = {
+					13251DE420BD932D00F20E13 = {
+						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					13251DF820BD932F00F20E13 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 13251DE420BD932D00F20E13;
+					};
+					13251E0320BD932F00F20E13 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 13251DE420BD932D00F20E13;
+					};
+				};
+			};
+			buildConfigurationList = 13251DE020BD932D00F20E13 /* Build configuration list for PBXProject "Teasure Hunter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13251DDC20BD932D00F20E13;
+			productRefGroup = 13251DE620BD932D00F20E13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13251DE420BD932D00F20E13 /* Treasure Hunter */,
+				13251DF820BD932F00F20E13 /* Treasure HunterTests */,
+				13251E0320BD932F00F20E13 /* Treasure HunterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13251DE320BD932D00F20E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13251DF320BD932F00F20E13 /* LaunchScreen.storyboard in Resources */,
+				13251DF020BD932F00F20E13 /* Assets.xcassets in Resources */,
+				13251DEE20BD932D00F20E13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13251DF720BD932F00F20E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13251E0220BD932F00F20E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13251DE120BD932D00F20E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13251DEB20BD932D00F20E13 /* NewBeaconController.swift in Sources */,
+				1386232220BECA3000C6CBC7 /* BeaconListController.swift in Sources */,
+				1352C36920C9B60600C09FF1 /* OnboardingPager.swift in Sources */,
+				1386231E20BEC2FB00C6CBC7 /* BeaconController.swift in Sources */,
+				1352C36B20C9C69400C09FF1 /* FirstPageTutorial.swift in Sources */,
+				1386232420BEDD3F00C6CBC7 /* BeaconManager.swift in Sources */,
+				13251DE920BD932D00F20E13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13251DF520BD932F00F20E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13251DFE20BD932F00F20E13 /* Teasure_HunterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13251E0020BD932F00F20E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13251E0920BD932F00F20E13 /* Teasure_HunterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13251DFB20BD932F00F20E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13251DE420BD932D00F20E13 /* Treasure Hunter */;
+			targetProxy = 13251DFA20BD932F00F20E13 /* PBXContainerItemProxy */;
+		};
+		13251E0620BD932F00F20E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13251DE420BD932D00F20E13 /* Treasure Hunter */;
+			targetProxy = 13251E0520BD932F00F20E13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13251DEC20BD932D00F20E13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13251DED20BD932D00F20E13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13251DF120BD932F00F20E13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13251DF220BD932F00F20E13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13251E0B20BD932F00F20E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13251E0C20BD932F00F20E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13251E0E20BD932F00F20E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XG9AARB55;
+				INFOPLIST_FILE = "Teasure Hunter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Francesco-Picazio.Treasure-Hunter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		13251E0F20BD932F00F20E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XG9AARB55;
+				INFOPLIST_FILE = "Teasure Hunter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Francesco-Picazio.Treasure-Hunter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		13251E1120BD932F00F20E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XG9AARB55;
+				INFOPLIST_FILE = "Teasure HunterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Francesco-Picazio.Teasure-HunterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teasure Hunter.app/Teasure Hunter";
+			};
+			name = Debug;
+		};
+		13251E1220BD932F00F20E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XG9AARB55;
+				INFOPLIST_FILE = "Teasure HunterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Francesco-Picazio.Teasure-HunterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teasure Hunter.app/Teasure Hunter";
+			};
+			name = Release;
+		};
+		13251E1420BD932F00F20E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XG9AARB55;
+				INFOPLIST_FILE = "Teasure HunterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Francesco-Picazio.Teasure-HunterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Teasure Hunter";
+			};
+			name = Debug;
+		};
+		13251E1520BD932F00F20E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XG9AARB55;
+				INFOPLIST_FILE = "Teasure HunterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Francesco-Picazio.Teasure-HunterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Teasure Hunter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13251DE020BD932D00F20E13 /* Build configuration list for PBXProject "Teasure Hunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13251E0B20BD932F00F20E13 /* Debug */,
+				13251E0C20BD932F00F20E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13251E0D20BD932F00F20E13 /* Build configuration list for PBXNativeTarget "Treasure Hunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13251E0E20BD932F00F20E13 /* Debug */,
+				13251E0F20BD932F00F20E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13251E1020BD932F00F20E13 /* Build configuration list for PBXNativeTarget "Treasure HunterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13251E1120BD932F00F20E13 /* Debug */,
+				13251E1220BD932F00F20E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13251E1320BD932F00F20E13 /* Build configuration list for PBXNativeTarget "Treasure HunterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13251E1420BD932F00F20E13 /* Debug */,
+				13251E1520BD932F00F20E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13251DDD20BD932D00F20E13 /* Project object */;
+}
